@@ -1,0 +1,60 @@
+/*提示*/
+.prompt{
+    width: 132px;
+    display: block;
+    font-size: 12px;
+    position: relative;
+    top: 112px;
+    left: 114px;
+    opacity: 0;
+    color: #FF0000;
+}
+.promptpsd{
+    width: 237px;
+    display: block;
+    font-size: 12px;
+    position: relative;
+    top: 207px;
+    opacity: 0;
+    left: 114px;
+    color: #FF0000;
+}
+.promptpwd{
+    width: 237px;
+    display: block;
+    font-size: 12px;
+    position: relative;
+    top: 246px;
+    opacity: 0;
+    left: 114px;
+    color: #FF0000;
+}
+.prompt-code{
+    width: 132px;
+    display: block;
+    font-size: 12px;
+    position: relative;
+    top: 163px;
+    left: 114px;
+    opacity: 0;
+    color: #FF0000;
+}
+.form{
+    position:relative;
+    top:-42px;
+}
+form input{
+    width: 247px;
+    height: 32px;
+    background: none;
+    border:0;
+    outline:none;
+    border-bottom: 1px solid #999999;
+    margin-left: 62px;
+    margin-top: 35px;
+}
+.verification{
+    position: relative;
+    top: 42px;
+    left: -17px;
+}

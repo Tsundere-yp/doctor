@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/personal.css" />
+</head>
+<body>
+        <!--header-->
+        <div class="html1"></div>
+        <div class="color-p">
+            <section id="select-p">
+                <p class="option-blue"></p>
+                <p class="option-yellow"></p>
+                <p class="option-coral"></p>
+            </section>
+        </div>
+        <!--content-->
+        <div class="personal-content">
+            <!--个人中心内容top-->
+            <section class="content-top">
+                <!--个人中心的图片-->
+                <span class="content-img">
+                    <!--个人头像-->
+                    <p class="portrait"></p>
+                    <!--用户显示信息-->
+                    <p class="info">
+                        <i>用户：<b class="user"></b></i><br>
+                        <i class="vip">vip</i>
+                    </p>
+                    <ul class="content-personal-ul">
+                        <li><a href="javascript:;">个人基本信息</a></li>
+                        <li><a href="javascript:;">个人订单列表</a></li>
+                        <li><a href="javascript:;">会员管理</a></li>
+                        <li><a href="javascript:;">关注</a></li>
+                        <li><a href="javascript:;">站内公告</a></li>
+                    </ul>
+                </span>
+            </section>
+            <!--个人中心内容content-->
+            <section class="personal-content-content">
+             <!--个人的基本信息-->
+                <form class="personal-form" action=""  method = "post">
+                    <p class="input-p"><i class="font-i">姓名：</i><input id="name" class="inputa" type="text" /></p>
+                    <p class="input-p"><i class="font-i">性别：</i><input class="inputa1" type="radio" value="1" name="sex" /><i class="text-i">男</i><input class="inputa1" type="radio" value="2" name="sex" /><i class="text-i">女</i></p>
+                    <p class="input-p"><i class="font-i">年龄：</i><input class="inputa age" type="text"></p>
+                    <p class="input-p"><i class="font-i">所在地区:</i>
+                        <select class="inputa2">
+                        <option>北京</option>
+                        <option>上海</option>
+                        <option>深圳</option>
+                        <option>山东</option>
+                        </select></p>
+                  <p class="input-p"><i class="font">个人简介：</i><textarea class="inputa3" rows="6" cols="32"></textarea></p>
+                  <p><input class="button option-bg" id="true" type="button" value="确定"><input class="button option-bg" id="true1" type="button" value="修改"></p>
+                </form>
+             <!--个人订单列表-->
+                <div class="personal-order">
+                    <p class="order-p">订单信息查询</p>
+                    <i class="order-line"></i>
+                    <i class="order-i"></i>
+                    <table>
+                        <tr>
+                            <th>订单号</th>
+                            <th>下单时间</th>
+                            <th>商品名称</th>
+                            <th>订单总金额</th>
+                            <th>订单状态</th>
+                            <th>操作</th>
+                        </tr>
+                        <tr>
+                            <td>201932473824</td>
+                            <td>2019/6/19</td>
+                            <td>999</td>
+                            <td>￥32元</td>
+                            <td>已支付/已发货</td>
+                            <td>查看/删除</td>
+                        </tr>
+                        <tr>
+                            <td>201934422323</td>
+                            <td>2019/6/2</td>
+                            <td>999感冒灵</td>
+                            <td>￥32元</td>
+                            <td>已支付/已收货</td>
+                            <td>查看/删除</td>
+                        </tr>
+                        <tr>
+                            <td>201923242132</td>
+                            <td>2019/6/1</td>
+                            <td>999感冒灵</td>
+                            <td>￥32元</td>
+                            <td>已支付/已收货</td>
+                            <td>查看/删除</td>
+                         </tr>
+                        <tr>
+                            <td>201923213232</td>
+                            <td>2019/3/2</td>
+                            <td>999感冒灵</td>
+                            <td>￥32元</td>
+                            <td>已支付/已收货</td>
+                            <td>查看/删除</td>
+                        </tr>
+                        <tr>
+                            <td>201923213232</td>
+                            <td>2019/2/2</td>
+                            <td>999感冒灵</td>
+                            <td>￥32元</td>
+                            <td>已支付/已收货</td>
+                            <td>查看/删除</td>
+                        </tr>
+                        <tr>
+                            <td>201912123213</td>
+                            <td>2019/2/1</td>
+                            <td>999感冒灵</td>
+                            <td>￥32元</td>
+                            <td>已支付/已收货</td>
+                            <td>查看/删除</td>
+                    </tr>
+                    </table>
+                   <button class="order-button option-bg">上一页</button><button class="order-button option-bg">下一页</button>
+                </div>
+            </section>
+        </div>
+        <!--footer-->
+        <div class="html2"></div>
+</body>
+        <script src="libs/jquery.js"></script>
+        <script src="utils/tools.js"></script>
+        <script src="libs/jquery.cookie.js"></script>
+        <script src="utils/ajax.js"></script>
+        <script src="utils/public.js"></script>
+        <script src="js/personal.js"></script>
+</html>

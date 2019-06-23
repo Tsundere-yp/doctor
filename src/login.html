@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+</head>
+<body>
+      <!--整个页面的背景-->
+       <div class="background">
+           <a class="back-a" href="index.html"><<返回首页</a>
+           <!--登录页面的具体内容-->
+           <section class="login-center">
+               <p class="p1A">大</p>
+               <p class="p1A">医</p>
+               <p class="p1A">同</p>
+               <p class="p1A">盟</p>
+               <span class="center-right">
+                   <div class="center-right-b">
+                       <b class="right-b teshuA ">用户登录</b>
+                       <a href="registered.html"><b class="right-b">用户注册</b></a>
+                   </div>
+                   <!--提示的语句-->
+                    <a class="prompt">手机号码格式不正确</a>
+                    <a class="promptpsd">密码应该在6-20位数，字母数字组成</a>
+                   <!--登录注册的form表单-->
+                   <form action=""  method = "post">
+                       <input id="phone"  type = "text"   placeholder = "手机号" />
+                       <input class="pwd"  type = "password"   placeholder = "密码" value=""  />
+                       <input class="submit"  type="button" value = "登录"/>
+                       <p class="input-go">您还没有账号？<a href="registered.html">立即去注册</a></p>
+                       <!--登录界面的iconfont小图标-->
+                       <svg class="icon" aria-hidden="true">
+                              <use class="icona" xlink:href="#icon-weixin"></use>
+                       </svg>
+                        <svg class="icon" aria-hidden="true">
+                               <use class="icona" xlink:href="#icon-qq-copy-copy"></use>
+                       </svg> <svg class="icon" aria-hidden="true">
+                               <use class="icona" xlink:href="#icon-weibo"></use>
+                       </svg> <svg class="icon" aria-hidden="true">
+                               <use class="icona" xlink:href="#icon-tubiao209"></use>
+                       </svg>
+                    </form>
+               </span>
+           </section>
+           <div class="login-footer-html"></div>
+       </div>
+</body>
+<script src="libs/jquery.js"></script>
+<script src="utils/tools.js"></script>
+<script src="utils/ajax.js"></script>
+<script src="js/login.js"></script>
+<script src="iconfont/iconfont.js"></script>
+<script src="libs/jquery.cookie.js"></script>
+<script src="utils/public.js"></script>
+</html>

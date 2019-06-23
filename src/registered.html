@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/registered.css" />
+</head>
+<body>
+<!--整个页面的背景-->
+<div class="background">
+    <a class="back-a" href="index.html"><<返回首页</a>
+    <!--登录页面的具体内容-->
+    <section class="login-center">
+        <p class="p1A">大</p>
+        <p class="p1A">医</p>
+        <p class="p1A">同</p>
+        <p class="p1A">盟</p>
+        <span class="center-right">
+                   <div class="center-right-b">
+                       <a href="login.html"><b class="right-b ">用户登录</b></a>
+                        <b class="right-b teshuA">用户注册</b>
+                   </div>
+                   <!--提示的语句-->
+                    <a class="prompt">手机号码格式不正确</a>
+                    <a class="prompt-code">验证码不正确</a>
+                    <a class="promptpsd">密码应该在6-20位数，字母数字组成</a>
+                    <a class="promptpwd">两次密码不一致</a>
+                   <!--登录注册的form表单-->
+                   <form class="form-re form" action=""  method = "post">
+                       <input id="phone"  type = "text"   placeholder = "请输入手机号"  />
+                       <input class="code"  type = "text"   placeholder = "请输入验证码"  /><input class="input-button"  type = "button"   value = "点击获取验证码"  />
+                       <b class="verification"></b>
+                       <input class="pass pwd"  type = "password"   placeholder = "密码"  />
+                       <input class="password"  type = "password"   placeholder = "请确认密码"  />
+                       <input class="submit1"  type="button" value = "注册"/>
+                       <p class="input-go1">《大医同盟用户注册协议》我已阅读并同意以上协议<input class="radio" type="checkbox" /></p>
+
+
+                    </form>
+               </span>
+    </section>
+    <div class="login-footer-html"></div>
+</div>
+</body>
+<script src="libs/jquery.js"></script>
+<script src="iconfont/iconfont.js"></script>
+<script src="utils/tools.js"></script>
+<script src="utils/ajax.js"></script>
+<script src="js/registered.js"></script>
+<script src="libs/jquery.cookie.js"></script>
+<script src="utils/public.js"></script>
+</html>

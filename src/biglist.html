@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>大医榜</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/biglist.css"  />
+		<link rel="stylesheet" type="text/css" href="libs/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+	</head>
+	<body>
+		<!--遮罩-->
+		<div id="body" ></div>
+		<!--header-->
+		<div class="html1"></div>
+		<div class="color-p">
+			<section id="select-p">
+				<p class="option-blue"></p>
+				<p class="option-yellow"></p>
+				<p class="option-coral"></p>
+			</section>
+		</div>
+	    <!--content-->
+	    <div class="Biglist-content">
+	    	<!--弹窗-->
+	    	<section id="Popup" class="Popup">
+				<!--弹框的具体内容-->
+	    		<disectionv class="Popup-content">
+	    			<p class="experts option-color"><h5 class="h5">专家展示</h5><a href="javascript:;" class="x">X</a></p>
+					<!--专家的具体信息-->
+	    			<div class="experts-in">
+	    				<img class="experts-in-img" src="img/useno/wangwei.jpg" />
+	    				<div class="in-content">
+	    					<p><b>王巍</b><i>副主任医师</i></p>
+	    					<p>北京大学医<i class="spacing"></i>美容科</p>
+	    				</div>
+	    			</div>
+					<!--专家的具体技能-->
+	    			<div class="experts-b">
+	    				<p class="experts-b-p1"><i>擅长:</i>错颌畸形综合治疗；儿童乳牙期、替牙期及恒牙早期错合畸形矫治；</p>
+	    				<p class="experts-b-p2"><i>社会任职:</i>中华口腔医学会会员,口腔正畸专业委员会专科会员，隐适美认证医师。</p>
+	    			</div>
+	    		</disectionv>
+	    	</section>
+	    	<!--轮播图-->
+	    	<section class="swiper-container swiper-container1" style="min-width:1300px;">
+				<ol class="swiper-wrapper">
+				<li class="swiper-slide"><img class="img1" src="img/useok/doctor-swiper-banner1.jpg"></li>
+				<li class="swiper-slide"><img class="img1" src="img/useok/doctor-swiper-banner2.jpg"></li>
+				<li class="swiper-slide"><img class="img1" src="img/useok/doctor-swiper-banner3.jpg"></li>
+				</ol>
+				<!-- 分页器 -->
+			    <div class="swiper-pagination  swiper-pag"></div>
+			    <!-- 导航按钮 -->
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			</section>
+			<!--大医榜-->
+			<section class="doctor">
+				<ul class="Bigdoctor">
+					<li class="title">
+						<p class="title-p">大医榜</p>
+						<div class="line-p option-color">
+		    				<i class="line-i"></i>
+		    			</div>
+					</li>
+					<li id="li1" class="doctor-div"><img class="doctor-img" src="img/useno/doctor-list-1.png"/></li>
+					<li id="li2" class="doctor-div"><img class="doctor-img" src="img/useno/doctor-list-2.png"/></li>
+					<li id="li3" class="doctor-div"><img class="doctor-img" src="img/useno/doctor-list-3.png"/></li>
+					<li id="li4" class="doctor-div"><img class="doctor-img" src="img/useno/doctor-list-4.png"/></li>
+				</ul>
+			</section>
+			<!--分类-->
+			<section class="classification">
+				<div class="classification-content">
+					<p class="classification-title">科室导航</p>
+					<ul class="title-content">
+						<li class="title-li option-bg"><a href="javascript:;">肿瘤科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">内科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">外科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">妇科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">儿科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">骨科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">运动医学科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">眼科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">耳鼻咽喉头颈</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">口腔科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">皮肤性病科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">医学影像科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">核医学科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">急诊与重症医学</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">病理科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">呼吸内科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">疼痛科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">中医科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">康复科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">ICU</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">美容整形科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">全科</a></li>
+						<li class="title-li option-bg"><a href="javascript:;">体检中心</a></li>
+					</ul>
+				</div>
+			</section>
+			<!--专家展示-->
+			<section class="expertsA">
+					<section class="experts-content">
+						<!--专家展示标题-->
+						<p class="experts-title">
+							专家展示
+						</p>
+						<!--专家展示内容--轮播图展示-->
+						<div class="experts-title-content">
+							<div class="swiper-container swiper-container2">
+								 <div class="swiper-wrapper">
+									 <!--每一组轮播图-->
+									 <div class="swiper-slide" id="slide">
+											<!--展示每位专家-->
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/baiwenpei.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+											<div class="li-img">
+											<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/chenwen.jpg" />
+											</div>
+											<div class="li-content">
+												<h4>白文佩</h4>
+												<p class="introduce">北京世纪坛医院</p>
+												<p class="introduce">妇产科主任，领军人物</p>
+												<p class="introduce-p1">主任医师，教授</p>
+												<button class="iconfont" >&#xe618;点击更多</button>
+											</div>
+										</li>
+											<li class="a-li">
+											<div class="li-img">
+											<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/chuishunjiu.jpg" />
+											</div>
+											<div class="li-content">
+												<h4>白文佩</h4>
+												<p class="introduce">北京世纪坛医院</p>
+												<p class="introduce">妇产科主任，领军人物</p>
+												<p class="introduce-p1">主任医师，教授</p>
+												<button class="iconfont" >&#xe618;点击更多</button>
+											</div>
+										</li>
+											<li class="a-li">
+											<div class="li-img">
+											<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/wangwei.jpg" />
+											</div>
+											<div class="li-content">
+												<h4>白文佩</h4>
+												<p class="introduce">北京世纪坛医院</p>
+												<p class="introduce">妇产科主任，领军人物</p>
+												<p class="introduce-p1">主任医师，教授</p>
+												<button class="iconfont" >&#xe618;点击更多</button>
+											</div>
+										</li>
+											<li class="a-li">
+											<div class="li-img">
+											<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/zhangfengshan.jpg" />
+											</div>
+											<div class="li-content">
+												<h4>白文佩</h4>
+												<p class="introduce">北京世纪坛医院</p>
+												<p class="introduce">妇产科主任，领军人物</p>
+												<p class="introduce-p1">主任医师，教授</p>
+												<button class="iconfont" >&#xe618;点击更多</button>
+											</div>
+										</li>
+									  </div>
+									 <div class="swiper-slide" id="slide">
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/zhaoshouqin.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/yuxiaolan.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/donghuiqing.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/fanggaoju.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/gaofeng.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+									 </div>
+									 <div class="swiper-slide" id="slide">
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/gengjing.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/gongchunxiu.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/jiachangqi.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/panyingzi.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+												<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/songqinghua.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+									 </div>
+									 <div class="swiper-slide" id="slide">
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/baiwenpei.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/chenwen.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/chuishunjiu.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/wangwei.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/zhangfengshan.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+									 </div>
+									 <div class="swiper-slide" id="slide">
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/zhaoshouqin.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/yuxiaolan.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/donghuiqing.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/fanggaoju.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+											<li class="a-li">
+												<div class="li-img">
+													<img class="imga" style="width:150px;height:190px;display: block;" src="img/useno/gaofeng.jpg" />
+												</div>
+												<div class="li-content">
+													<h4>白文佩</h4>
+													<p class="introduce">北京世纪坛医院</p>
+													<p class="introduce">妇产科主任，领军人物</p>
+													<p class="introduce-p1">主任医师，教授</p>
+													<button class="iconfont" >&#xe618;点击更多</button>
+												</div>
+											</li>
+									 </div>
+								 </div>
+								 <!-- 分页器 -->
+								 <div class="swiper-pagination swiper-A"></div>
+							</div>
+						</div>
+					</section>
+			</section>
+			<!--公益微讲堂-->
+			<section class="Micro">
+				<div class="Micro-content">
+					<!--公益微讲堂标题-->
+					<p class="experts-title">
+						公益微讲堂
+					</p>
+					<!--公益微讲堂内容-->
+					<div class="Micro-title-content">
+						<div class="Micro-left">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--大医论坛-->
+			<section class="forum">
+				<section class="forum-content">
+					<!--大医论坛标题-->
+					<p class="experts-title">
+						大医论坛
+					</p>
+					<!--大医论坛内容-->
+					<div class="Micro-title-content">
+						<div class="Micro-left1">
+							<i class="round"></i><a href="javascript:;"><div class="a-div"><p class="p1">甲状腺良性结节应审慎手术</p><p class="p2">房居高</p></div></a>
+							<i class="round"></i><a href="javascript:;"><div class="a-div"><p class="p1">给孩子多些陪伴，给孩子多些自主空间</p><p class="p2">宝泉</p></div></a>
+							<i class="round"></i><a href="javascript:;"><div class="a-div"><p class="p1">腰疼</p><p class="p2">左力</p></div></a>
+							<i class="round"></i><a href="javascript:;"><div class="a-div"><p class="p1">性激素治疗与女性心血管疾病</p><p class="p2">白文</p></div></a>
+						</div>
+						<div class="Micro-right1">
+							<i class="round"></i><a href="javascript:;"><div class="a-div"><p class="p1">甲状腺良性结节应审慎手术</p><p class="p2">房居高</p></div></a>
+							<i class="round"></i><a href="javascript:;"><div class="a-div"><p class="p1">给孩子多些陪伴，给孩子多些自主空间</p><p class="p2">宝泉</p></div></a>
+							<i class="round"></i><a href="javascript:;"><div class="a-div"><p class="p1">腰疼</p><p class="p2">左力</p></div></a>
+							<i class="round"></i><a href="javascript:;"><div class="a-div"><p class="p1">性激素治疗与女性心血管疾病</p><p class="p2">白文</p></div></a>
+						</div>
+					</div>
+				</section>
+			</section>
+             <!--服务侧边栏-->
+			<div class="html3"></div>
+	   </div>
+		<!--footer-->
+		<div class="html2"></div>
+	</body>
+	<script src="libs/swiper.min.js"></script>
+	<script src="libs/jquery.js"></script>
+	<script src="utils/ajax.js"></script>
+	<script src="utils/tools.js"></script>
+	<script src="libs/jquery.cookie.js"></script>
+	<script src="utils/public.js"></script>
+	<script src="js/biglist.js"></script>
+</html>
