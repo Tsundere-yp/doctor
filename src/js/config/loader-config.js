@@ -7,6 +7,7 @@ require.config({
         "tools":"utils/tools",
         "cookie":"libs/jquery.cookie",
         "public":"utils/public",
-        "ajax":"utils/ajax"
+        "ajax":"utils/ajax",
+        "layui": "libs/layui/layui",
     }
 })
