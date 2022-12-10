@@ -3,7 +3,7 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "babel-core": "^6.26.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gulp": "^3.9.1",
     "gulp-babel": "^8.0.0",
     "gulp-cssnano": "^2.1.3",
